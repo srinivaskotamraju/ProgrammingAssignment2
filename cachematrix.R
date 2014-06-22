@@ -20,7 +20,7 @@ makeCacheMatrix <- function(lMat= matrix()) {
 		# We can also use all.equal to see if the matrix is changed, and only if it is changed then
 		# update the matrix and invalidate the inverse.
 		
-		# Set method to change,update matrix, when matrix is changed we also invalidate the inverse.
+		# Set method to change the matrix, when matrix is changed we also invalidate the inverse.
 		
         set <- function(y) {
                 lMat <<- y
